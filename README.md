@@ -1,4 +1,40 @@
-# Description
+# GetNinjasRoverChallenge
+
+### Folder Structure
+```
+|-- GetNinjasRoverChallenge
+    |-- data
+    |-- lib
+    |   |-- models
+    |-- test
+        |-- models
+```
+
+### Running the tests into a Docker container.
+Execute the following commands:
+```
+docker build -t getninjasroverchallenge .
+docker run -it getninjasroverchallenge:latest
+```
+
+### Running without a Docker container
+Execute the following commands:
+```
+bundle install
+```
+To run the tests:
+```
+rake test
+```
+To run the application:
+```
+rake run
+```
+
+---
+---
+
+# Challenge Description
 
 We are assessing a number of things, including the design aspect of your solution, code hygiene, readability and code structure (how easy it is for another programmer to grasp what your code does), reliability and robustness (are errors properly handled?), but mostly we are looking for good coding practices and your object oriented programming skills. We'll also look for automated tests.
 
