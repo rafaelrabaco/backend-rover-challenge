@@ -14,7 +14,7 @@
 Execute the following commands:
 ```
 docker build -t getninjasroverchallenge .
-docker run -it getninjasroverchallenge:latest
+docker run -it --rm getninjasroverchallenge:latest
 ```
 
 ### Running without a Docker container
